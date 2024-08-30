@@ -1,0 +1,120 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #0a3d62, #5dade2, #0a3d62); /* Gradient background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.app-container {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 11px;
+  box-shadow: 0 8px 35px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  background-color: white;
+  color: #333;
+}
+
+.product-card h2 {
+  margin-bottom: 15px;
+  color: #007BFF; /* Blue header text */
+}
+
+.product-card p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.add-container {
+  margin: 30px auto; /* Center the container horizontally and add top/bottom margin */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for form */
+  border-radius: 10px;
+  width: 80%; /* Adjust the width as needed */
+  max-width: 400px; /* Optional: Set a maximum width to prevent it from getting too large */
+}
+
+.add-container h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-container form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.add-container form input,
+.add-container form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.add-btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
